@@ -270,6 +270,6 @@ def describe_1d(df, column):
 
 def describe(df):
     for col in df.columns:
-        describe_1d(df, col)
+        stats = describe_1d(df, col)
 
     return stats
