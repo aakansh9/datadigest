@@ -1,0 +1,8 @@
+mock
+pyspark
+numpy>=1.13.0
+pandas>=0.24.1
+pypandoc
+pytest
+pytest-mock
+setuptools
